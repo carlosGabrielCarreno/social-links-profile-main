@@ -5,20 +5,21 @@ function App() {
 
   return (
     <>
-      <main>
-        <section>
+      <main className="card">
+        <section className="container-img">
           <img src={photoProfile} alt="profile photo" />
         </section>
-        <section>
+        <section className="container-titles">
           <h1>Jessica Randall</h1>
-          <p>London, United Kingdom</p>
+          <p className="location-info">London, United Kingdom</p>
+          <p className="profetion">"Front-end developer and avid reader."</p>
         </section>
-        <section>
+        <section className="container-buttons">
           <button>GitHub</button>
           <button>Frontend Mentor</button>
-          <button>GitHub</button>
-          <button>GitHub</button>
-          <button>GitHub</button>
+          <button>Linkedin</button>
+          <button>Twitter</button>
+          <button>Instagram</button>
         </section>
       </main>
     </>

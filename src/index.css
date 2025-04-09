@@ -1,0 +1,27 @@
+/* 
+Green: hsl(75, 94%, 57%)
+
+White: hsl(0, 0%, 100%)
+
+Grey 700: hsl(0, 0%, 20%)
+
+Grey 800: hsl(0, 0%, 12%)
+
+Grey 900: hsl(0, 0%, 8%)
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
